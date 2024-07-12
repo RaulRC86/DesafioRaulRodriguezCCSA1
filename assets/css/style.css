@@ -33,11 +33,20 @@ body, html {
     height: auto;
     margin-right: 10px;
 }
+.chat-item2{display: flex; flex-wrap: wrap; flex-direction: column;}
+.chat-item2 img {
+    border-radius: 50%;
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+}
 
 .chat-info p {
     margin: 0;
 }
 
+.botón {padding: 20%; justify-content: center; border: solid; border: #cbcdcae8;}
+.boton button {font-size: larger; padding: auto;}
 .logo {
     display: flex;
     justify-content: center;
