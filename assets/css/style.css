@@ -8,7 +8,7 @@ body, html {
 
 .container {
     display: flex;
-    height: 100vh;
+    height: auto;
 }
 
 .chats {
@@ -17,7 +17,7 @@ body, html {
     width: 15%; 
     padding: 20px;
     overflow-y: auto; 
-    background-color: #f4f4f4;
+    background-color: white;
 }
 
 .chat-item {
@@ -33,7 +33,7 @@ body, html {
     height: auto;
     margin-right: 10px;
 }
-.chat-item2{display: flex; flex-wrap: wrap; flex-direction: column;}
+.chat-item2{display: flex; flex-wrap: wrap; flex-direction: column; margin-bottom: 10px;}
 .chat-item2 img {
     border-radius: 50%;
     width: 40px;
@@ -45,8 +45,9 @@ body, html {
     margin: 0;
 }
 
-.botón {padding: 20%; justify-content: center; border: solid; border: #cbcdcae8;}
-.boton button {font-size: larger; padding: auto;}
+.botón {padding: 70px; justify-content: center; border: 2px solid; border: #d1d1d1e8;}
+button { font-size: large; background-color: plum; color: white;  justify-content: center;}
+.msj {color: rgb(0, 0, 0); font-size: smaller;}
 .logo {
     display: flex;
     justify-content: center;
